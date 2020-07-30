@@ -13,3 +13,9 @@ run;
 proc options option=memsize value;
 run;
 ```
+###### Get actual var WORK
+
+```
+proc options option=work value;
+run;
+```
