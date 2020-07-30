@@ -19,3 +19,5 @@ run;
 proc options option=work value;
 run;
 ```
+
+###### Get actual var WORK ######
