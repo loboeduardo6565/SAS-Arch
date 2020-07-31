@@ -13,5 +13,3 @@ caslib ORACLE datasource=(
     path="path",
     schema="schema" );
 ``` 
-
-Prueba 2122
