@@ -1,4 +1,4 @@
-## Viya Options
+## Conf Viya Options
 
 ###### Get performance options
 
@@ -20,4 +20,3 @@ proc options option=work value;
 run;
 ```
 
-###### Get actual var WORK
