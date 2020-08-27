@@ -1,6 +1,6 @@
 ## Algunas opciones
 
-###### Ingresar al entorno de desarrollo desde consola
+###### Ingresar al entorno SAS desde la consola de Linux 
 
 ```
 /app/sas/SASHome/SASFoundation/9.4/sas -nodms
