@@ -19,3 +19,9 @@
 proc PRODUCT_STATUS;
 run;
 ```
+
+###### Mostrar variables de entorno del sistema con codigo SAS
+
+```
+%put %sysget(LD_LIBRARY_PATH);
+```
