@@ -70,6 +70,8 @@ ps -ef | grep cas
 ```
 /opt/sas/viya/home/bin/sas-ops services
 ```
+###### La salida de este comando mostrará algo similar a la siguiente imagen:
+
 ![Services_out](https://github.com/loboeduardo6565/SAS-Arch/blob/master/servicios.png)
 
 ###### Para verificar el estado de un servicio especifico solo hay que sumar el parametro --health a este comando.
@@ -77,3 +79,12 @@ ps -ef | grep cas
 ```
 /opt/sas/viya/home/bin/sas-ops services --health nombre_del_servicio
 ```
+
+###### Usando uno de los servicios de la imagen anterior como ejemplo podemos ver su status
+
+```
+/opt/sas/viya/home/bin/sas-ops services --health SASStudio
+```
+###### La salida de este comando mostrará algo similar a la siguiente imagen:
+
+![Services_out](https://github.com/loboeduardo6565/SAS-Arch/blob/master/status.png)
