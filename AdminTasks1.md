@@ -87,4 +87,15 @@ ps -ef | grep cas
 ```
 ###### La salida de este comando mostrará algo similar a la siguiente imagen:
 
-![Services_out](https://github.com/loboeduardo6565/SAS-Arch/blob/master/status.png)
+###### El status passing muestra que la verificación fue positiva y que todo esta bien. 
+
+![Status_check](https://github.com/loboeduardo6565/SAS-Arch/blob/master/status.png)
+
+
+###### En este caso se muestra un servicio cuyo estado es Down 
+
+```
+/opt/sas/viya/home/bin/sas-ops services --health watch-log-viya
+```
+
+![Status_check_Critical](https://github.com/loboeduardo6565/SAS-Arch/blob/master/statuscritical.png)
